@@ -1,8 +1,6 @@
 // fred comment
-
 function greeter(person: any) {
     return "Hello, " + person;
 }
-
-let user = "Jane User"; 
+const user = "Jane User";
 document.body.innerHTML = greeter(user);
